@@ -18,6 +18,9 @@ h1 {
   color: #fff;
   margin: 50px 0;
 }
+
+/* Nav bar */
+
 .container-fluid {
   padding: 3% 6%;
 }
@@ -34,7 +37,9 @@ h1 {
   margin: 0 30px;
   font-weight: 200;
 }
-.container {
+
+/* Title */
+.title-container {
   width: 300px;
   margin: 80px 100px 0 0;
 }
@@ -42,4 +47,58 @@ h1 {
   max-width: 100%;
   max-height: 100%;
   transform: rotate(32deg);
+}
+
+/* Features */
+.features {
+  margin: 3rem auto;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.fa-circle-check,
+.fa-bullseye,
+.fa-heart {
+  margin: 5rem 0 2rem 0;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-paragraph {
+  color: #bfbfbf;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+/* Testimonial  */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
